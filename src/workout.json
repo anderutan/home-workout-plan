@@ -1,0 +1,412 @@
+[
+  {
+    "id": "1",
+    "day": "Monday",
+    "type": "Chest - Tricep",
+    "noOfExercise": 6,
+    "duration": 45,
+    "coverPicture": "",
+    "exercises": [
+      {
+        "name": "Chest Press",
+        "weightFather": 2,
+        "weightMother": 1,
+        "tool": "",
+        "sets": 3,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Butterfly",
+        "weightFather": 3,
+        "weightMother": 1,
+        "tool": "",
+        "sets": 3,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Wide Press",
+        "weightFather": 2,
+        "weightMother": 1,
+        "tool": "",
+        "sets": 3,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Single Arm Side Raise",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "Water Bottle",
+        "sets": 3,
+        "reps": 15,
+        "rest": 40,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Rope Triceps Push Down",
+        "weightFather": 2,
+        "weightMother": 1,
+        "tool": "",
+        "sets": 3,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Wall Push Up",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "",
+        "sets": 3,
+        "reps": 10,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "day": "Tuesday",
+    "type": "Back - Bicep",
+    "noOfExercise": 6,
+    "duration": 45,
+    "coverPicture": "",
+    "exercises": [
+      {
+        "name": "Lat Pulldown",
+        "weightFather": 3,
+        "weightMother": 2,
+        "tool": "",
+        "sets": 3,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Wide Pull Out",
+        "weightFather": 2,
+        "weightMother": 1,
+        "tool": "",
+        "sets": 3,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Rope Straight Arm Pulldown",
+        "weightFather": 2,
+        "weightMother": 1,
+        "tool": "",
+        "sets": 3,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Single Arm Bent Side Raise",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "Water Bottle",
+        "sets": 3,
+        "reps": 15,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Rope Bicep Curl",
+        "weightFather": 2,
+        "weightMother": 1,
+        "tool": "",
+        "sets": 3,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Cable Shrug",
+        "weightFather": 4,
+        "weightMother": 3,
+        "tool": "",
+        "sets": 3,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "day": "Wednesday",
+    "type": "Leg",
+    "noOfExercise": 6,
+    "duration": 45,
+    "coverPicture": "",
+    "exercises": [
+      {
+        "name": "Leg Press",
+        "weightFather": 9,
+        "weightMother": 7,
+        "tool": "",
+        "sets": 3,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Leg Extension",
+        "weightFather": 3,
+        "weightMother": 2,
+        "tool": "",
+        "sets": 3,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Body Weight Squat With Band",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "Yellow / Blue Band",
+        "sets": 4,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Single Leg Side Raise",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "Blue / Green Band",
+        "sets": 3,
+        "reps": 15,
+        "rest": 40,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Single Leg Cable Bend Kickback",
+        "weightFather": 1,
+        "weightMother": 1,
+        "tool": "",
+        "sets": 3,
+        "reps": 15,
+        "rest": 40,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Single Leg Standing Calf Raise",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "",
+        "sets": 3,
+        "reps": 15,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "day": "Thursday",
+    "type": "Shoulder - Core",
+    "noOfExercise": 6,
+    "duration": 45,
+    "coverPicture": "",
+    "exercises": [
+      {
+        "name": "Single Arm Shoulder Press",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "Water Bottle",
+        "sets": 4,
+        "reps": 12,
+        "rest": 30,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Tricep Overhead Extension",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "Blue / Green Band",
+        "sets": 4,
+        "reps": 12,
+        "rest": 30,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Face Pull",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "Blue / Green Band",
+        "sets": 4,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Single Arm Front Raise",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "Water Bottle",
+        "sets": 4,
+        "reps": 12,
+        "rest": 30,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Bridges",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "Yoga Mat",
+        "sets": 4,
+        "reps": 10,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Opposite arm and leg raise",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "Yoga Mat",
+        "sets": 4,
+        "reps": 16,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "day": "Friday",
+    "type": "Wholebody",
+    "noOfExercise": 6,
+    "duration": 45,
+    "coverPicture": "",
+    "exercises": [
+      {
+        "name": "Cable Deadlift with Bar",
+        "weightFather": 5,
+        "weightMother": 4,
+        "tool": "",
+        "sets": 4,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Body Weight Squat",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "",
+        "sets": 4,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Seat Pull",
+        "weightFather": 4,
+        "weightMother": 3,
+        "tool": "",
+        "sets": 4,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Chest Press",
+        "weightFather": 2,
+        "weightMother": 1,
+        "tool": "",
+        "sets": 4,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Single Arm Hammer Curl",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "Water Bottle",
+        "sets": 4,
+        "reps": 15,
+        "rest": 30,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      },
+      {
+        "name": "Good Morning",
+        "weightFather": 0,
+        "weightMother": 0,
+        "tool": "Water Bottle",
+        "sets": 4,
+        "reps": 12,
+        "rest": 60,
+        "videoLink": "",
+        "gifLink": "",
+        "coverCard": ""
+      }
+    ]
+  }
+]
