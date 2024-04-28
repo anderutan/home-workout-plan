@@ -5,7 +5,7 @@
     "type": "Chest - Tricep",
     "noOfExercise": 6,
     "duration": 45,
-    "coverPicture": "",
+    "coverPicture": "assets/images/cover-picture/monday.jpg",
     "exercises": [
       {
         "name": "Chest Press",
@@ -15,9 +15,8 @@
         "sets": 3,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "CIykDiF4sfg?si=9EpLtzGXKrgKkcIA",
+        "gifImage": "/src/assets/images/gif/monday/chest-press.gif"
       },
       {
         "name": "Butterfly",
@@ -27,9 +26,8 @@
         "sets": 3,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "eGjt4lk6g34?si=Tv15qc5niph9A7M1",
+        "gifImage": "/src/assets/images/gif/monday/butterfly.gif"
       },
       {
         "name": "Wide Press",
@@ -39,9 +37,8 @@
         "sets": 3,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "3lWVR8Krvmo?si=h1p0dDKBuMkTZHM8",
+        "gifImage": "/src/assets/images/gif/monday/inner-chest-press.gif"
       },
       {
         "name": "Single Arm Side Raise",
@@ -51,9 +48,8 @@
         "sets": 3,
         "reps": 15,
         "rest": 40,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "Z5FA9aq3L6A?si=yD135pJOJ9U1tO5k",
+        "gifImage": "/src/assets/images/gif/monday/side-raise.gif"
       },
       {
         "name": "Rope Triceps Push Down",
@@ -63,9 +59,8 @@
         "sets": 3,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "NvZKjiZ8NYc",
+        "gifImage": "/src/assets/images/gif/monday/pushdown.gif"
       },
       {
         "name": "Wall Push Up",
@@ -73,11 +68,10 @@
         "weightMother": 0,
         "tool": "",
         "sets": 3,
-        "reps": 10,
+        "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "JlrVJaPn5o4",
+        "gifImage": "/src/assets/images/gif/monday/wall-push-ups.gif"
       }
     ]
   },
@@ -87,7 +81,7 @@
     "type": "Back - Bicep",
     "noOfExercise": 6,
     "duration": 45,
-    "coverPicture": "",
+    "coverPicture": "assets/images/cover-picture/tuesday.jpg",
     "exercises": [
       {
         "name": "Lat Pulldown",
@@ -97,9 +91,8 @@
         "sets": 3,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "tZLqFeMPeLc",
+        "gifImage": "/src/assets/images/gif/tuesday/lat-pulldown.gif"
       },
       {
         "name": "Wide Pull Out",
@@ -109,9 +102,8 @@
         "sets": 3,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "z7C7PxVDAD0",
+        "gifImage": "/src/assets/images/gif/tuesday/wide-pull.gif"
       },
       {
         "name": "Rope Straight Arm Pulldown",
@@ -121,9 +113,8 @@
         "sets": 3,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "CqsO1bQl9QI",
+        "gifImage": "/src/assets/images/gif/tuesday/cable-straight-arm-pulldown.gif"
       },
       {
         "name": "Single Arm Bent Side Raise",
@@ -133,9 +124,8 @@
         "sets": 3,
         "reps": 15,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "UUbH1a-zbW4",
+        "gifImage": "/src/assets/images/gif/tuesday/bent-over-lateral-raise.gif"
       },
       {
         "name": "Rope Bicep Curl",
@@ -145,9 +135,8 @@
         "sets": 3,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "F44gDjGQGZE",
+        "gifImage": "/src/assets/images/gif/tuesday/rope-bicep-curls.gif"
       },
       {
         "name": "Cable Shrug",
@@ -157,9 +146,8 @@
         "sets": 3,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "YykmcX2b-LY",
+        "gifImage": "/src/assets/images/gif/tuesday/cable-shrug.gif"
       }
     ]
   },
@@ -169,7 +157,7 @@
     "type": "Leg",
     "noOfExercise": 6,
     "duration": 45,
-    "coverPicture": "",
+    "coverPicture": "assets/images/cover-picture/wednesday.jpg",
     "exercises": [
       {
         "name": "Leg Press",
@@ -179,9 +167,8 @@
         "sets": 3,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "Zh1fW8h4MWU",
+        "gifImage": "/src/assets/images/gif/wednesday/leg-press.gif"
       },
       {
         "name": "Leg Extension",
@@ -191,9 +178,8 @@
         "sets": 3,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "D1Zn0mBw4DE",
+        "gifImage": "/src/assets/images/gif/wednesday/leg-extension.gif"
       },
       {
         "name": "Body Weight Squat With Band",
@@ -203,9 +189,8 @@
         "sets": 4,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "AmpGugDza7Q",
+        "gifImage": "/src/assets/images/gif/wednesday/bodyweights-squat.gif"
       },
       {
         "name": "Single Leg Side Raise",
@@ -215,9 +200,8 @@
         "sets": 3,
         "reps": 15,
         "rest": 40,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "HuMrFEbTIvI",
+        "gifImage": "/src/assets/images/gif/wednesday/leg-side-raise.gif"
       },
       {
         "name": "Single Leg Cable Bend Kickback",
@@ -225,11 +209,10 @@
         "weightMother": 1,
         "tool": "",
         "sets": 3,
-        "reps": 15,
+        "reps": 12,
         "rest": 40,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "-tdzMq_8zhc",
+        "gifImage": "/src/assets/images/gif/wednesday/cable-kickback.gif"
       },
       {
         "name": "Single Leg Standing Calf Raise",
@@ -239,9 +222,8 @@
         "sets": 3,
         "reps": 15,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "OG3OgpXsirQ",
+        "gifImage": "/src/assets/images/gif/wednesday/single-leg-calf-raises.gif"
       }
     ]
   },
@@ -251,7 +233,7 @@
     "type": "Shoulder - Core",
     "noOfExercise": 6,
     "duration": 45,
-    "coverPicture": "",
+    "coverPicture": "assets/images/cover-picture/thursday.jpg",
     "exercises": [
       {
         "name": "Single Arm Shoulder Press",
@@ -261,21 +243,19 @@
         "sets": 4,
         "reps": 12,
         "rest": 30,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "O3e4d27yHyw",
+        "gifImage": "/src/assets/images/gif/thursday/single-arm-shoulder-press.gif"
       },
       {
-        "name": "Tricep Overhead Extension",
+        "name": "Tricep Overhead Extension with Resistance Band",
         "weightFather": 0,
         "weightMother": 0,
         "tool": "Blue / Green Band",
         "sets": 4,
         "reps": 12,
         "rest": 30,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "bwzqDS8P-74",
+        "gifImage": "/src/assets/images/gif/thursday/overhead-triceps-extension.gif"
       },
       {
         "name": "Face Pull",
@@ -285,9 +265,8 @@
         "sets": 4,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "OIMUU2Q-upU",
+        "gifImage": "/src/assets/images/gif/thursday/face-pull.gif"
       },
       {
         "name": "Single Arm Front Raise",
@@ -297,9 +276,8 @@
         "sets": 4,
         "reps": 12,
         "rest": 30,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "B6e5b8SY64g",
+        "gifImage": "/src/assets/images/gif/thursday/front-raise.gif"
       },
       {
         "name": "Bridges",
@@ -309,9 +287,8 @@
         "sets": 4,
         "reps": 10,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "XLXGydU5DdU",
+        "gifImage": "/src/assets/images/gif/thursday/glute-bridge.gif"
       },
       {
         "name": "Opposite arm and leg raise",
@@ -321,9 +298,8 @@
         "sets": 4,
         "reps": 16,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "GJ34tTJyWz8",
+        "gifImage": "/src/assets/images/gif/thursday/arm-and-leg-raise.gif"
       }
     ]
   },
@@ -333,7 +309,7 @@
     "type": "Wholebody",
     "noOfExercise": 6,
     "duration": 45,
-    "coverPicture": "",
+    "coverPicture": "assets/images/cover-picture/friday.jpg",
     "exercises": [
       {
         "name": "Cable Deadlift with Bar",
@@ -343,9 +319,8 @@
         "sets": 4,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "_4U_5JO3oiE",
+        "gifImage": "/src/assets/images/gif/friday/cable-deadlift.gif"
       },
       {
         "name": "Body Weight Squat",
@@ -355,9 +330,8 @@
         "sets": 4,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "AmpGugDza7Q",
+        "gifImage": "/src/assets/images/gif/friday/bodyweights-squat.gif"
       },
       {
         "name": "Seat Pull",
@@ -367,9 +341,8 @@
         "sets": 4,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "UCXxvVItLoM",
+        "gifImage": "/src/assets/images/gif/friday/close-grip-cable-row.gif"
       },
       {
         "name": "Chest Press",
@@ -379,9 +352,8 @@
         "sets": 4,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "GtJDHwB6Gxk",
+        "gifImage": "/src/assets/images/gif/friday/chest-press.gif"
       },
       {
         "name": "Single Arm Hammer Curl",
@@ -391,9 +363,8 @@
         "sets": 4,
         "reps": 15,
         "rest": 30,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "yCDJmfP1Tr8",
+        "gifImage": "/src/assets/images/gif/friday/water-bottle-hammer-curl.gif"
       },
       {
         "name": "Good Morning",
@@ -403,9 +374,8 @@
         "sets": 4,
         "reps": 12,
         "rest": 60,
-        "videoLink": "",
-        "gifLink": "",
-        "coverCard": ""
+        "videoLink": "YA-h3n9L4YU",
+        "gifImage": "/src/assets/images/gif/friday/dumbbell-good-morning.gif"
       }
     ]
   }

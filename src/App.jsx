@@ -1,7 +1,13 @@
+import ExercisePage from './pages/ExercisePage';
+import MainPage from './pages/MainPage';
+import WorkoutListPage from './pages/WorkoutListPage';
+
 function App() {
   return (
     <>
-      <p>test</p>
+      {/* <MainPage /> */}
+      {/* <WorkoutListPage /> */}
+      <ExercisePage />
     </>
   );
 }
