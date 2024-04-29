@@ -20,7 +20,7 @@ export default function WorkoutList() {
   }
 
   return (
-    <div className='h-full bg-bg-main mt-2'>
+    <div className='h-full bg-bg-main pt-2'>
       {workoutData
         ? workoutData.map((workout, index) => (
             <Link

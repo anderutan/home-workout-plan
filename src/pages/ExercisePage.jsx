@@ -30,13 +30,13 @@ export default function ExercisePage() {
           <Link to={`/${day}`}>
             <MdArrowBackIos className='text-arrow text-2xl absolute top-6 left-6' />
           </Link>
-          <div className='w-full h-72 bg-bg-main rounded-xl flex justify-center'>
+          <div className='w-full h-80 bg-bg-main rounded-xl flex justify-center'>
             {showGif ? (
-              <img src={workoutData.gifImage} alt='' className='h-72 w-full' />
+              <img src={workoutData.gifImage} alt='' className='' />
             ) : (
               <iframe
                 width='100%'
-                height='288px'
+                height='100%'
                 src={`https://www.youtube.com/embed/${workoutData.videoLink}`}
                 title='YouTube video player'
                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'

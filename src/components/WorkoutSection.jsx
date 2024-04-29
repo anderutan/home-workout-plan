@@ -25,7 +25,7 @@ export default function WorkoutSection() {
   }, []);
 
   return (
-    <div className='mt-5 '>
+    <div>
       {loading && <p>Loading workouts...</p>}
       {error && <p>{error}</p>}
       {workoutData && workoutData.length > 0
