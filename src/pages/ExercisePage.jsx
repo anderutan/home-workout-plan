@@ -1,9 +1,9 @@
 import { MdArrowBackIos } from 'react-icons/md';
-import weightIcon from '../assets/icon/weight.svg';
-import setsIcon from '../assets/icon/repeat.svg';
-import repsIcon from '../assets/icon/arm.svg';
-import timeIcon from '../assets/icon/timer.svg';
-import toolIcon from '../assets/icon/tool.svg';
+import weightIcon from '../../public/icon/weight.svg';
+import setsIcon from '../../public/icon/repeat.svg';
+import repsIcon from '../../public/icon/arm.svg';
+import timeIcon from '../../public/icon/timer.svg';
+import toolIcon from '../../public/icon/tool.svg';
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import workoutList from '../workout.json';
@@ -32,10 +32,10 @@ export default function ExercisePage() {
           </Link>
           <div className='w-full h-72 bg-bg-main rounded-xl flex justify-center'>
             {showGif ? (
-              <img src={workoutData.gifImage} alt='' className='h-72' />
+              <img src={workoutData.gifImage} alt='' className='h-72 w-full' />
             ) : (
               <iframe
-                width='375'
+                width='100%'
                 height='288px'
                 src={`https://www.youtube.com/embed/${workoutData.videoLink}`}
                 title='YouTube video player'

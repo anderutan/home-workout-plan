@@ -1,7 +1,7 @@
-import exerciseIcon from '../assets/icon/thunder.svg';
-import timeIcon from '../assets/icon/timer-1.svg';
+import exerciseIcon from '../../public/icon/thunder.svg';
+import timeIcon from '../../public/icon/timer-1.svg';
 import { MdArrowBackIos } from 'react-icons/md';
-import bgImg from '../assets/images/background-2.jpg';
+import bgImg from '../../public/images/background-2.jpg';
 import { Link, useParams } from 'react-router-dom';
 import workoutData from '../workout.json';
 import { useEffect, useState } from 'react';
