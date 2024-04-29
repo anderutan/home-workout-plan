@@ -43,7 +43,7 @@ export default function WorkoutList() {
                   Exercise {index + 1}:
                 </p>
                 <p
-                  className={`text-lg font-bold leading-5 mr-2 ${
+                  className={`text-lg font-bold leading-5 w-[170px] ${
                     isHover === index ? 'text-white' : 'text-f-main'
                   }`}
                 >

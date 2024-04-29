@@ -207,7 +207,7 @@
         "name": "Single Leg Cable Bend Kickback",
         "weightFather": 1,
         "weightMother": 1,
-        "tool": "",
+        "tool": "Ankle Strap",
         "sets": 3,
         "reps": 12,
         "rest": 40,
