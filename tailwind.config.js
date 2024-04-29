@@ -8,7 +8,7 @@ export default {
         'f-second': '#9F9FA6',
         'hd-main': '#CFF645',
         'hd-second': '#141414',
-        'bg-main': '#D9D9D9',
+        'bg-main': '#EEEEEE',
         'bg-second': '#fff',
         arrow: '#FF3B31',
       },

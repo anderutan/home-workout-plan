@@ -4,8 +4,8 @@
     "day": "Monday",
     "type": "Chest - Tricep",
     "noOfExercise": 6,
-    "duration": 45,
-    "coverPicture": "assets/images/cover-picture/monday.jpg",
+    "duration": 40,
+    "coverPicture": "/src/assets/images/cover-picture/monday.jpg",
     "exercises": [
       {
         "name": "Chest Press",
@@ -80,8 +80,8 @@
     "day": "Tuesday",
     "type": "Back - Bicep",
     "noOfExercise": 6,
-    "duration": 45,
-    "coverPicture": "assets/images/cover-picture/tuesday.jpg",
+    "duration": 40,
+    "coverPicture": "/src/assets/images/cover-picture/tuesday.jpg",
     "exercises": [
       {
         "name": "Lat Pulldown",
@@ -157,7 +157,7 @@
     "type": "Leg",
     "noOfExercise": 6,
     "duration": 45,
-    "coverPicture": "assets/images/cover-picture/wednesday.jpg",
+    "coverPicture": "/src/assets/images/cover-picture/wednesday.jpg",
     "exercises": [
       {
         "name": "Leg Press",
@@ -232,8 +232,8 @@
     "day": "Thursday",
     "type": "Shoulder - Core",
     "noOfExercise": 6,
-    "duration": 45,
-    "coverPicture": "assets/images/cover-picture/thursday.jpg",
+    "duration": 50,
+    "coverPicture": "/src/assets/images/cover-picture/thursday.jpg",
     "exercises": [
       {
         "name": "Single Arm Shoulder Press",
@@ -247,7 +247,7 @@
         "gifImage": "/src/assets/images/gif/thursday/single-arm-shoulder-press.gif"
       },
       {
-        "name": "Tricep Overhead Extension with Resistance Band",
+        "name": "Tricep Overhead with Band",
         "weightFather": 0,
         "weightMother": 0,
         "tool": "Blue / Green Band",
@@ -308,8 +308,8 @@
     "day": "Friday",
     "type": "Wholebody",
     "noOfExercise": 6,
-    "duration": 45,
-    "coverPicture": "assets/images/cover-picture/friday.jpg",
+    "duration": 50,
+    "coverPicture": "/src/assets/images/cover-picture/friday.jpg",
     "exercises": [
       {
         "name": "Cable Deadlift with Bar",

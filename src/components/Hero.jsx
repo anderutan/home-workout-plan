@@ -11,7 +11,7 @@ export default function Hero() {
       }}
     >
       <div className='absolute inset-0 bg-hd-main opacity-80'></div>
-      <h1 className='text-5xl font-bold text-f-main relative drop-shadow-[0_3px_3px_rgba(255,255,255,1)] tracking-wide'>
+      <h1 className='text-4xl font-bold text-f-main relative drop-shadow-[0_3px_3px_rgba(255,255,255,1)] tracking-wide'>
         Home <br />
         Workout Plan
       </h1>

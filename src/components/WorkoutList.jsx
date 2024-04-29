@@ -1,45 +1,63 @@
-import { useState } from 'react';
-import img from '../assets/images/gif/monday/chest-press.gif';
+import { useEffect, useState } from 'react';
 import { IoArrowForwardCircleSharp } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import workoutList from '../workout.json';
 
 export default function WorkoutList() {
+  const { day } = useParams();
   const [isHover, setIsHover] = useState(false);
+  const [workoutData, setWorkoutData] = useState(null);
 
-  function handleHover() {
-    setIsHover(true);
-  }
+  useEffect(() => {
+    setWorkoutData(
+      workoutList.filter((workout) => workout.day === day)[0].exercises
+    );
+  }, [day]);
 
-  function handleMouseOut() {
-    setIsHover(false);
+  function handleHover(index) {
+    setIsHover(index);
   }
 
   return (
-    <div
-      className={`px-10 py-3 flex rounded-2xl items-center ${
-        isHover ? 'bg-hd-second' : 'bg-bg-main'
-      }`}
-      onMouseEnter={handleHover}
-      onMouseOut={handleMouseOut}
-      onClick={handleHover}
-    >
-      <img src={img} alt='' className='h-16 w-20 rounded-lg' />
-      <div className='ml-4 self-start'>
-        <p className='text-sm font-bold text-f-second tracking-wider'>
-          Exercise 1:
-        </p>
-        <p
-          className={`text-xl font-bold  -mt-1 ${
-            isHover ? 'text-white' : 'text-f-main'
-          }`}
-        >
-          Chest Press
-        </p>
-      </div>
-      <IoArrowForwardCircleSharp
-        className={`ml-auto mr-2 text-2xl  ${
-          isHover ? 'text-hd-main' : 'text-arrow'
-        }`}
-      />
+    <div className='h-full bg-bg-main'>
+      {workoutData
+        ? workoutData.map((workout, index) => (
+            <Link
+              to={`/${day}/${workout.name}`}
+              key={index}
+              className={`px-10 py-5 flex rounded-2xl items-center ${
+                isHover === index ? 'bg-hd-second' : 'bg-bg-main'
+              }`}
+              onMouseEnter={() => handleHover(index)}
+              onMouseOut={() => setIsHover(null)}
+              onClick={() => handleHover(index)}
+            >
+              <img
+                src={workout.gifImage}
+                alt=''
+                className='h-16 w-20 rounded-lg'
+              />
+              <div className='ml-4 self-start'>
+                <p className='text-sm font-bold text-f-second tracking-wider'>
+                  Exercise {index + 1}:
+                </p>
+                <p
+                  className={`text-lg font-bold leading-5 mr-2 ${
+                    isHover === index ? 'text-white' : 'text-f-main'
+                  }`}
+                >
+                  {workout.name}
+                </p>
+              </div>
+              <IoArrowForwardCircleSharp
+                className={`ml-auto text-2xl  ${
+                  isHover === index ? 'text-hd-main' : 'text-arrow'
+                }`}
+              />
+            </Link>
+          ))
+        : null}
     </div>
   );
 }

@@ -5,13 +5,16 @@ import repsIcon from '../assets/icon/arm.svg';
 import timeIcon from '../assets/icon/timer.svg';
 import { useState } from 'react';
 import gif from '../assets/images/gif/monday/chest-press.gif';
+import { Link } from 'react-router-dom';
 
 export default function ExercisePage() {
   const [showGif, setShowGif] = useState(true);
 
   return (
     <div className='relative pt-16 pb-10'>
-      <MdArrowBackIos className='text-arrow text-2xl absolute top-6 left-6' />
+      <Link to='/'>
+        <MdArrowBackIos className='text-arrow text-2xl absolute top-6 left-6' />
+      </Link>
       <div className='w-full h-72 bg-bg-main rounded-xl flex justify-center'>
         {showGif ? (
           <img src={gif} alt='' className='h-72' />
