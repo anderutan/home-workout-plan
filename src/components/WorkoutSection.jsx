@@ -33,10 +33,10 @@ export default function WorkoutSection() {
             <Link
               to={`/${workout.day}`}
               key={workout.id}
-              className={`flex items-center py-5  px-5 rounded-2xl ${
+              className={`flex items-center py-8  px-5 rounded-2xl ${
                 isHover === workout.id
                   ? 'bg-hd-second'
-                  : index % 2 === 0
+                  : index % 2 === 1
                   ? 'bg-bg-main'
                   : 'bg-bg-second'
               }`}

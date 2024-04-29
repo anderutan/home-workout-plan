@@ -20,16 +20,16 @@ export default function WorkoutList() {
   }
 
   return (
-    <div className='h-full bg-bg-main pt-2'>
+    <div className='h-full bg-bg-main pt-2 rounded-t-2xl'>
       {workoutData
         ? workoutData.map((workout, index) => (
             <Link
               to={`/${day}/${workout.name}`}
               key={index}
-              className={`px-10 py-5 flex rounded-2xl items-center ${
+              className={`px-10 py-6 flex rounded-2xl items-center ${
                 isHover === index
                   ? 'bg-hd-second'
-                  : index % 2 === 1
+                  : index % 2 === 0
                   ? 'bg-bg-main'
                   : 'bg-bg-second'
               }`}
