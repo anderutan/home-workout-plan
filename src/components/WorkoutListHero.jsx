@@ -16,7 +16,7 @@ export default function WorkoutListHero() {
 
   return (
     <div
-      className=' bg-hd-second py-16 px-10 relative'
+      className=' bg-hd-second py-16 pb-10 px-10 relative'
       style={{
         backgroundImage: `url(${bgImg})`,
         backgroundSize: 'cover',

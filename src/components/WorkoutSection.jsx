@@ -25,16 +25,20 @@ export default function WorkoutSection() {
   }, []);
 
   return (
-    <div className='mt-5  px-5'>
+    <div className='mt-5 '>
       {loading && <p>Loading workouts...</p>}
       {error && <p>{error}</p>}
       {workoutData && workoutData.length > 0
-        ? workoutData.map((workout) => (
+        ? workoutData.map((workout, index) => (
             <Link
               to={`/${workout.day}`}
               key={workout.id}
-              className={`flex items-center py-5 rounded-2xl ${
-                isHover === workout.id ? 'bg-hd-second' : 'bg-bg-second'
+              className={`flex items-center py-5  px-5 rounded-2xl ${
+                isHover === workout.id
+                  ? 'bg-hd-second'
+                  : index % 2 === 0
+                  ? 'bg-bg-main'
+                  : 'bg-bg-second'
               }`}
               onMouseEnter={() => handleHover(workout.id)}
               onMouseOut={() => setIsHover(null)}

@@ -20,14 +20,18 @@ export default function WorkoutList() {
   }
 
   return (
-    <div className='h-full bg-bg-main'>
+    <div className='h-full bg-bg-main mt-2'>
       {workoutData
         ? workoutData.map((workout, index) => (
             <Link
               to={`/${day}/${workout.name}`}
               key={index}
               className={`px-10 py-5 flex rounded-2xl items-center ${
-                isHover === index ? 'bg-hd-second' : 'bg-bg-main'
+                isHover === index
+                  ? 'bg-hd-second'
+                  : index % 2 === 1
+                  ? 'bg-bg-main'
+                  : 'bg-bg-second'
               }`}
               onMouseEnter={() => handleHover(index)}
               onMouseOut={() => setIsHover(null)}
